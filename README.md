@@ -1,6 +1,6 @@
 # Đồ linh tinh
 
-Đây là các tệp linh tinh phục vụ cho các mục đích đơn giản tùy nhu cầu. Mỗi tệp .bat được thiết kế để thực hiện các nhiệm vụ cụ thể, giúp bạn dễ dàng tự động hóa các công việc hàng ngày.
+Đây là các tệp linh tinh phục vụ cho các mục đích đơn giản tùy nhu cầu. Mỗi tệp được thiết kế để thực hiện các nhiệm vụ cụ thể, giúp bạn dễ dàng tự động hóa các công việc hàng ngày.
 
 ## Hướng dẫn sử dụng
 
