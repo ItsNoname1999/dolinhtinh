@@ -12,7 +12,7 @@
    - Để chạy tệp .bat, bạn cần chỉ cần nhấp đúp vào tệp hoặc chạy tệp từ Command Prompt.
 
 ## Các tệp Nội dung
-- `file_mover_by_extension.bat`: Script để di chuyển các file có định dạng đuôi file nhất định vào thư mục mới (mặc định sẽ chạy ở thư mục hiện hành (thư mục mà tệp này đang nằm bên trong))
+- `file_mover_by_extension.bat`: Script để di chuyển các file có định dạng đuôi file nhất định vào thư mục mới (mặc định sẽ chạy ở thư mục hiện hành (thư mục mà tệp này đang nằm bên trong)). Thường dùng để phân loại.
 - `click to run (don't click the exe).bat`: Tải nhanh video YouTube (hình ảnh kém, chỉ dùng để tải video nhạc): Tải xuống "yt-dlp.exe" (https://github.com/yt-dlp/yt-dlp), sau đó tạo một thư ở đâu đó, rồi copy-paste "yt-dlp.exe" vào thư mục này, copy đường dẫn của thư mục này, mở file .bat bằng Notepad, sửa đường dẫn ở dòng "cd /d <đường dẫn>" thành đường dẫn mới copy, lưu lại rồi chạy.
 ## Lưu ý
 - **BACKUP DỮ LIỆU!**: Trước khi chạy bất kỳ tệp nào, hãy đảm bảo bạn đã sao lưu dữ liệu quan trọng của mình để tránh mất mát dữ liệu không mong muốn.
