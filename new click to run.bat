@@ -3,11 +3,19 @@ setlocal enabledelayedexpansion
 
 :: --- Hiển thị tiêu đề và hướng dẫn ---
 echo --------------------------------------------
-echo      YT-DLP VIDEO DOWNLOADER FOR WINDOWS
+echo     YT-DLP VIDEO DOWNLOADER FOR WINDOWS
 echo --------------------------------------------
 echo.
 echo Paste video URL below (right-click or Ctrl+V), then press Enter:
 set /p "video_url=> "
+
+:: --- Đặt thư mục tải về (chỉnh dòng này nếu muốn tải ở chỗ khác)	(giá trị hiện tại: Downloads)---
+set "download_dir=%USERPROFILE%\Downloads"
+
+:: --- Tạo nếu chưa có ---
+if not exist "%download_dir%" (
+    mkdir "%download_dir%"
+)
 
 :: --- Kiểm tra yt-dlp.exe tồn tại ---
 if not exist yt-dlp.exe (
