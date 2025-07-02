@@ -17,6 +17,7 @@
 ++ Bước 1: Làm theo hướng dẫn cài đặt ffmpeg + yt-dlp (xem các hình ảnh "install ffmpeg + yt-dlp" theo thứ tự từ 1 đến 5)
 ++ Bước 2: Tải về extension Chrome `Get cookies.txt`: https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc, sau đó export cookie và dán vào thư mục yt-dlp (đã cài ở bước trước)
 ++ Bước 3: Dán file `new click to run.bat` này vào thư mục yt-dlp, sau đó click và chạy.
+**CẨN THẬN!** By using your account with yt-dlp, you run the risk of it being banned (temporarily or permanently). Be mindful with the request rate and amount of downloads you make with an account. Use it only when necessary, or consider using a throwaway account. **(nên download ít thôi không thôi bay account)**
 - `click to run (don't click the exe).bat`: Tệp .bat cũ của `new click to run.bat`, **đừng sử dụng, để lại như là di sản**
 ## Lưu ý
 - **BACKUP DỮ LIỆU!**: Trước khi chạy bất kỳ tệp nào, hãy đảm bảo bạn đã sao lưu dữ liệu quan trọng của mình để tránh mất mát dữ liệu không mong muốn.
