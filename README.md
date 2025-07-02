@@ -14,9 +14,10 @@
 ## Các tệp Nội dung
 - `file_mover_by_extension.bat`: Script để di chuyển các file có định dạng đuôi file nhất định vào thư mục mới (mặc định sẽ chạy ở thư mục hiện hành (thư mục mà tệp này đang nằm bên trong)). Thường dùng để phân loại.
 - `new click to run.bat`: Tải nhanh video YouTube (chất lượng tốt nhất, tải ít thôi không thôi bị bóp không cho tải nữa):
-++ Bước 1: Làm theo ướng dẫn cài đặt ffmpeg + yt-dlp (xem các hình ảnh "install ffmpeg + yt-dlp" theo thứ tự từ 1 đến 5)
+++ Bước 1: Làm theo hướng dẫn cài đặt ffmpeg + yt-dlp (xem các hình ảnh "install ffmpeg + yt-dlp" theo thứ tự từ 1 đến 5)
 ++ Bước 2: Tải về extension Chrome `Get cookies.txt`: https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc, sau đó export cookie và dán vào thư mục yt-dlp (đã cài ở bước trước)
 ++ Bước 3: Dán file `new click to run.bat` này vào thư mục yt-dlp, sau đó click và chạy.
+- `click to run (don't click the exe).bat`: Tệp .bat cũ của `new click to run.bat`, **đừng sử dụng, để lại như là di sản**
 ## Lưu ý
 - **BACKUP DỮ LIỆU!**: Trước khi chạy bất kỳ tệp nào, hãy đảm bảo bạn đã sao lưu dữ liệu quan trọng của mình để tránh mất mát dữ liệu không mong muốn.
 - **Kiểm tra nội dung tệp**: Hãy mở và kiểm tra nội dung tệp để đảm bảo rằng chúng thực hiện đúng các nhiệm vụ bạn mong muốn.
