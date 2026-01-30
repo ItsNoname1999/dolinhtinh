@@ -19,6 +19,7 @@
 ++ Bước 3: Dán file `new click to run.bat` này vào thư mục yt-dlp, sau đó click và chạy.
 **CẨN THẬN!** By using your account with yt-dlp, you run the risk of it being banned (temporarily or permanently). Be mindful with the request rate and amount of downloads you make with an account. Use it only when necessary, or consider using a throwaway account. **(nên download ít thôi không thôi bay accoun, hoặc xài acc rác)**
 - `click to run (don't click the exe).bat`: Tệp .bat cũ của `new click to run.bat`, **đừng sử dụng, để lại như là di sản**
+- `encode-decode link base64.bat`: Mã hóa, giải mã các link bị encode Base64 để tránh kiểm duyệt (Link giống vậy khả năng cao là Base64, có thể bị mã hóa 1 hoặc nhiều lần: Z29vZ2xlLmNvbSANCg==)
 ## Lưu ý
 - **BACKUP DỮ LIỆU!**: Trước khi chạy bất kỳ tệp nào, hãy đảm bảo bạn đã sao lưu dữ liệu quan trọng của mình để tránh mất mát dữ liệu không mong muốn.
 - **Kiểm tra nội dung tệp**: Hãy mở và kiểm tra nội dung tệp để đảm bảo rằng chúng thực hiện đúng các nhiệm vụ bạn mong muốn.
