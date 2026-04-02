@@ -8,11 +8,11 @@ echo ================================
 echo        BASE64 TOOL (CMD)
 echo ================================
 echo.
-echo 1. GIAI MA Base64 (n lan)
-echo 2. MA HOA Base64 (n lan)
-echo 0. Thoat
+echo 1. DECODE Base64 (n times)
+echo 2. ENCODE Base64 (n times)
+echo 0. EXIT
 echo.
-set /p choice=Chon chuc nang (0-2): 
+set /p choice=Choose function (0-2): 
 
 if "%choice%"=="1" goto decode
 if "%choice%"=="2" goto encode
@@ -22,14 +22,15 @@ goto menu
 :: ================== DECODE ==================
 :decode
 cls
-echo ==== GIAI MA BASE64 ====
+echo ==== DECODE BASE64 ====
 echo.
-set /p input=Nhap chuoi Base64: 
-set /p n=Nhap so lan muon giai (n): 
+set /p input=Input Base64 string: 
+set /p n=Times to decode (n): 
 
 echo !input! > step0.txt
 set prev=step0.txt
 set i=1
+echo (Link should appear before the first error message)
 
 :dec_loop
 if !i! GTR !n! goto end_decode
@@ -37,7 +38,8 @@ if !i! GTR !n! goto end_decode
 certutil -decode !prev! step!i!.txt >nul 2>nul
 
 echo.
-echo Giai lan !i!:
+
+echo Decode attempt !i! :
 type step!i!.txt
 
 set prev=step!i!.txt
@@ -52,11 +54,10 @@ goto menu
 :: ================== ENCODE ==================
 :encode
 cls
-echo ==== MA HOA BASE64 ====
+echo ==== ENCODE BASE64 ====
 echo.
-set /p input=Nhap chuoi / link goc: 
-set /p n=Nhap so lan muon ma hoa (n): 
-
+set /p input=Input original string/link: 
+set /p n=Times of encode (n): 
 echo !input! > step0.txt
 set prev=step0.txt
 set i=1
@@ -68,7 +69,7 @@ certutil -encode !prev! raw!i!.txt >nul
 findstr /v "CERTIFICATE" raw!i!.txt > step!i!.txt
 
 echo.
-echo Ma lan !i!:
+echo Encode attempt !i!:
 type step!i!.txt
 
 set prev=step!i!.txt
